@@ -38,3 +38,22 @@ breakpoint in C++ code.
 
 <img src="screenshots/3.jpg"/>
 
+## Debug Output
+```
+ 03/06 02:04:22: Launching Hybrid
+ $ adb push /Users/egslava/git/NDK-debugger-doesnt-work-proof/runnable/build/outputs/apk/runnable-debug.apk /data/local/tmp/ru.egslava.ndkfail
+ $ adb shell pm install -r "/data/local/tmp/ru.egslava.ndkfail"
+ 	pkg: /data/local/tmp/ru.egslava.ndkfail
+ Success
+ 
+ 
+ $ adb shell am start -D -n "ru.egslava.ndkfail/ru.egslava.ndkfail.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+ Waiting for application to come online: ru.egslava.ndkfail.test | ru.egslava.ndkfail
+ Connecting to ru.egslava.ndkfail
+ $ adb shell run-as ru.egslava.ndkfail mkdir /data/data/ru.egslava.ndkfail/lldb/bin
+ $ adb shell cat /data/local/tmp/lldb-server | run-as ru.egslava.ndkfail sh -c 'cat > /data/data/ru.egslava.ndkfail/lldb/bin/lldb-server; chmod 700 /data/data/ru.egslava.ndkfail/lldb/bin/lldb-server'
+ $ adb shell cat /data/local/tmp/start_lldb_server.sh | run-as ru.egslava.ndkfail sh -c 'cat > /data/data/ru.egslava.ndkfail/lldb/bin/start_lldb_server.sh; chmod 700 /data/data/ru.egslava.ndkfail/lldb/bin/start_lldb_server.sh'
+ Starting LLDB server: run-as ru.egslava.ndkfail /data/data/ru.egslava.ndkfail/lldb/bin/start_lldb_server.sh /data/data/ru.egslava.ndkfail/lldb unix-abstract /data/data/ru.egslava.ndkfail/lldb/tmp platform-1457222665316.sock "lldb process:gdb-remote packets"
+ Now Launching Native Debug Session
+ Attention! No symbol directories found - please check your native debug configuration
+```
