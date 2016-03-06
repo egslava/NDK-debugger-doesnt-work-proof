@@ -6,9 +6,7 @@ It's a simple Android project built with two gradle plugins:
  1. New Experimental Plugin (for NDK) (0.6.0-beta2) (newest on 6 of March 2016)
  1. Casual Android Plugin (2.0.0-beta6) (newest on 6 of March 2016)
  
-It compiles library plot-all-debug.aar that should be moved into runnable/libs/plot-all-debug.aar with help of 
-experimental gradle plugin. And it uses casual gradle plugin for Java Android application (that just uses native 
-module).
+It compiles NDK-library plot-all-debug.aar (with help of experimental gradle plugin) and I move it into runnable/libs/plot-all-debug.aar. After, it consumes casual Java Android application (that is based on casual Android SDK plugin).
 
 When I start debugging in Hybrid mode and I can stop only on breakpoints within Java Code. When I try to 
 step into C++ code - it just hangs on (I'm about Nexus 5, Android Studio is fine).
