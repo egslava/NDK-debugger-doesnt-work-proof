@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/intermediates/bundles/all/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/androidTest/assets"/></dataSet><dataSet config="all"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/androidTestAll/assets"/></dataSet></merger>

@@ -1,0 +1,16 @@
+-shared
+-Wl,-soname,libgl2jni.so
+-o
+/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/intermediates/binaries/debug/all/obj/mips64/libgl2jni.so
+/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/intermediates/objectFiles/mips64DebugAllSharedLibrary/gl2jniMainC/1gw91npuf3gppdo45sgo0rnib/bindings.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/egslava/apps/android-ndk-r10d/platforms/android-21/arch-mips64
+-Wl,--build-id
+-L/Users/egslava/apps/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64
+-lgnustl_static
+-no-canonical-prefixes
+-llog
+-lGLESv2

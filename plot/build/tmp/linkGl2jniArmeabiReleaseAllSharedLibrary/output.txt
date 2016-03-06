@@ -1,0 +1,4 @@
+See file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/linkGl2jniArmeabiReleaseAllSharedLibrary/output.txt for all output for linkGl2jniArmeabiReleaseAllSharedLibrary.
+linking libgl2jni.so successful.
+
+Finished linkGl2jniArmeabiReleaseAllSharedLibrary, see full log file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/linkGl2jniArmeabiReleaseAllSharedLibrary/output.txt.

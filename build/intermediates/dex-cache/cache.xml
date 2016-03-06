@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/egslava/git/NDK-debugger-doesnt-work-proof/runnable/build/intermediates/exploded-aar/plot-all-debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0e2bf8f31fa9737cd8493b74600be6f821febe3">
+        <dex dex="/Users/egslava/git/NDK-debugger-doesnt-work-proof/runnable/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-plot-all-debug_2f287b2e08524cb1fff025b6c84dbfb6e7cf8c6f.jar" />
+    </item>
+
+</items>

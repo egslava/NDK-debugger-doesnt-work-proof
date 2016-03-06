@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NDK-debugger-doesnt-work-proof.iml" filepath="$PROJECT_DIR$/NDK-debugger-doesnt-work-proof.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plot/plot.iml" filepath="$PROJECT_DIR$/plot/plot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runnable/runnable.iml" filepath="$PROJECT_DIR$/runnable/runnable.iml" />
+    </modules>
+  </component>
+</project>

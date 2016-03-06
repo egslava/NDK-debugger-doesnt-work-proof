@@ -1,0 +1,4 @@
+See file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/linkGl2jniX86_64ReleaseAllSharedLibrary/output.txt for all output for linkGl2jniX86_64ReleaseAllSharedLibrary.
+linking libgl2jni.so successful.
+
+Finished linkGl2jniX86_64ReleaseAllSharedLibrary, see full log file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/linkGl2jniX86_64ReleaseAllSharedLibrary/output.txt.

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/main/assets"/></dataSet><dataSet config="arm8"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/arm8/assets"/></dataSet><dataSet config="release"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/release/assets"/></dataSet><dataSet config="arm8Release"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/arm8Release/assets"/></dataSet></merger>

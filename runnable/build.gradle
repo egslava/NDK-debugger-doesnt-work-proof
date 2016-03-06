@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "ru.egslava.ndkfail"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            jniDebuggable true
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':plot')
+    // DOESN'T work, but provides IDE support
+    compile name: 'plot-all-debug', ext: 'aar'
+//    compile 'com.expertoption.plot:plot-all-debug@aar'
+    // DON'T FORGET COPY app/build/outputs/aar into runnable/libs
+}
+
+repositories {
+    mavenCentral()
+}

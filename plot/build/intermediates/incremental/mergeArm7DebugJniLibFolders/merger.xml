@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/main/jniLibs"/></dataSet><dataSet config="arm7"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/arm7/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/debug/jniLibs"/></dataSet><dataSet config="arm7Debug"><source path="/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/src/arm7Debug/jniLibs"/></dataSet></merger>

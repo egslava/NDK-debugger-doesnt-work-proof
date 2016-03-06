@@ -1,0 +1,4 @@
+See file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/compileGl2jniMipsDebugAllSharedLibraryGl2jniMainC/output.txt for all output for compileGl2jniMipsDebugAllSharedLibraryGl2jniMainC.
+compiling bindings.c successful.
+
+Finished compileGl2jniMipsDebugAllSharedLibraryGl2jniMainC, see full log file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/compileGl2jniMipsDebugAllSharedLibraryGl2jniMainC/output.txt.

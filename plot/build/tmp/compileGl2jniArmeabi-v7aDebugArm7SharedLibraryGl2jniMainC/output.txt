@@ -1,0 +1,4 @@
+See file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/compileGl2jniArmeabi-v7aDebugArm7SharedLibraryGl2jniMainC/output.txt for all output for compileGl2jniArmeabi-v7aDebugArm7SharedLibraryGl2jniMainC.
+compiling bindings.c successful.
+
+Finished compileGl2jniArmeabi-v7aDebugArm7SharedLibraryGl2jniMainC, see full log file:///Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/tmp/compileGl2jniArmeabi-v7aDebugArm7SharedLibraryGl2jniMainC/output.txt.

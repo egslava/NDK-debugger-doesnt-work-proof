@@ -1,0 +1,16 @@
+-shared
+-Wl,-soname,libgl2jni.so
+-o
+/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/intermediates/binaries/release/arm7/obj/armeabi-v7a/libgl2jni.so
+/Users/egslava/git/NDK-debugger-doesnt-work-proof/plot/build/intermediates/objectFiles/armeabi-v7aReleaseArm7SharedLibrary/gl2jniMainC/1gw91npuf3gppdo45sgo0rnib/bindings.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=/Users/egslava/apps/android-ndk-r10d/platforms/android-21/arch-arm
+-Wl,--build-id
+-L/Users/egslava/apps/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a
+-lgnustl_static
+-no-canonical-prefixes
+-llog
+-lGLESv2
